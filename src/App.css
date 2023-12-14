@@ -7,6 +7,23 @@
   pointer-events: none;
 }
 
+.header {
+  width: 100%;
+  color: black;
+  padding: 1%;
+  text-align: left;
+}
+
+a {
+  text-decoration: none !important;
+  color: white !important;
+  padding: 2px;
+}
+
+.card-header {
+  text-align: right;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -32,6 +49,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
